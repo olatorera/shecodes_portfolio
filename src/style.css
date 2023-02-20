@@ -1,3 +1,8 @@
+:root {
+  --primarycolor: #272142;
+  --primaryfont: "Nunito", sans-serif;
+}
+
 body {
   margin-bottom: 52px;
 }
@@ -8,10 +13,10 @@ body {
 }
 
 a {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--primaryfont);
   font-size: 16px;
   line-height: 22px;
-  color: #272142;
+  color: var(--primarycolor);
   font-weight: 700px;
 }
 
@@ -21,17 +26,17 @@ a {
 
 h1 {
   height: 24px;
-  color: #272142;
+  color: var(--primarycolor);
 }
 
 h2 {
   text-align: center;
   padding-top: 0;
   margin-top: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--primaryfont);
   line-height: 98px;
   font-size: 72px;
-  color: #272142;
+  color: var(--primarycolor);
 }
 
 .main {
@@ -52,10 +57,10 @@ img {
 }
 
 .name {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--primaryfont);
   line-height: 77px;
   font-size: 64px;
-  color: #272142;
+  color: var(--primarycolor);
   margin-left: 0;
   padding-left: 0;
   margin-top: 40px;
@@ -64,10 +69,10 @@ img {
 p {
   padding-left: 5px;
   margin-top: 40px;
-  font-family: "Nunito", sans-serif;
+  font-family: var(--primaryfont);
   line-height: 30px;
   font-size: 18px;
-  color: #272142;
+  color: var(--primarycolor);
   font-style: normal;
 }
 
