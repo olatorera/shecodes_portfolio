@@ -1,10 +1,26 @@
-h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+.head-navbar {
+  margin: 52px 140px;
+  margin-bottom: 27px;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+a {
+  color: black;
+}
+
+h1 {
+}
+
+h2 {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
+  font-family: "Nunito", sans-serif;
+  line-height: 98px;
+  line-height: 98px;
+  font-size: 72px;
+  color: #272142;
+}
+
+.main {
+  display: flex;
 }
